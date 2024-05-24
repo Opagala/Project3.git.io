@@ -1,0 +1,63 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('image+11.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color:black;
+    height: 2000px;
+}
+.navbar-brand{
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    max-height: 50px;
+    margin-right: 10px;
+}
+.jumbotron{
+    background-color: blanchedalmond;
+    background-image: url('image+7.jpg');
+    background-size:contain;
+    padding: 2rem 1rem;
+    border-radius: 0.3rem;
+    text-align: center;
+    color:black;
+}
+aside{    
+    container-type: inline-size ;
+    margin-left: 50%;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    margin: 0;
+}
+div{
+    text-align:center;
+}
+footer{
+        flex-direction: column;
+        text-align: center;
+        color: black;
+        container: inherit;
+    
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+@media (max-width: 768px) {
+    .header, .body, .footer{
+        padding: 15px;
+    }
+}
+@media(max-width: 480px){
+    .header, .body, .footer{
+        padding: 10px;
+    }
+}
